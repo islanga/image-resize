@@ -1,0 +1,15 @@
+{
+	"name": "Acme/hello-world",
+	"version": "1.0.0",
+	"require": {
+		"monolog/monolog" : "^1.21",
+		"aicial/webrequest": "^0.1.7",
+		"acme/hello-world": "dev-master",
+		"eventviva/php-image-resize": "1.6.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Acme\\": "src/"
+		}
+	}
+}
